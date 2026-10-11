@@ -1,0 +1,16 @@
+{
+  "name": "Masjidi — Mosque Finder",
+  "short_name": "Masjidi",
+  "description": "Find nearby mosques, prayer times, Qibla direction and Islamic utilities. Offline-first app by Ashfaq Ali Zardari Store.",
+  "start_url": "/masjidi/",
+  "scope": "/masjidi/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0B6E4F",
+  "theme_color": "#0B6E4F",
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "assets/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "assets/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

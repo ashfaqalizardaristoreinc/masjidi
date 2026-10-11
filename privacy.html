@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Masjidi Mosque Finder App</title>
+<meta name="description" content="Masjidi's privacy policy. We collect no personal data, use no ads, and store all mosque data locally on your device.">
+<meta name="keywords" content="masjidi privacy policy, mosque finder privacy, islamic app privacy">
+<meta name="theme-color" content="#0B6E4F">
+<link rel="canonical" href="https://ashfaqalizardaristoreinc.github.io/masjidi/privacy.html">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="manifest" href="assets/site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Privacy Policy — Masjidi">
+<meta property="og:url" content="https://ashfaqalizardaristoreinc.github.io/masjidi/privacy.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand"><svg viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#0B6E4F"/><path fill="#fff" d="M32 12c-1 3-3 4-3 7 0 2 1.3 3.5 3 4-5 1-9 5.5-9 11v14h4V34c0-3.3 2.2-6 5-6s5 2.7 5 6v14h4V34c0-5.5-4-10-9-11 1.7-.5 3-2 3-4 0-3-2-4-3-7z"/><path fill="#fff" d="M20 26h4v22h-4zM40 26h4v22h-4z"/></svg>Masjidi</a>
+    <nav class="nav-links"><a href="index.html">Home</a><a href="features.html">Features</a><a href="download.html">Download</a><a href="apps.html">Other Apps</a><a href="about.html">About</a><a href="support.html">Support</a></nav>
+    <div class="nav-actions">
+      <button class="theme-toggle" type="button" aria-label="Toggle theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+      <button class="hamburger" type="button" aria-label="Menu" aria-expanded="false"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="container"><h1>Privacy Policy</h1><p>Your privacy matters. Here's exactly what Masjidi does — and does not — do.</p></div>
+</section>
+
+<section class="section" style="padding-top:20px">
+  <div class="container content">
+    <span class="updated">Last updated: 11 October 2026</span>
+
+    <p>This Privacy Policy explains how <strong>Masjidi</strong> ("the App") — developed by <strong>Ashfaq Ali Zardari Store</strong> ("we", "us") — handles your information. We are committed to protecting your privacy and have designed Masjidi to be privacy-first by default.</p>
+
+    <div class="callout">
+      <p><strong>In short:</strong> Masjidi does not collect any personal information. We use no ads, no analytics, and no tracking SDKs. All mosque data, prayer times, and your favourites are stored locally on your device.</p>
+    </div>
+
+    <h2>1. Information We Collect</h2>
+    <h3>Location data</h3>
+    <p>With your explicit permission, Masjidi accesses your device's precise and/or approximate location to:</p>
+    <ul>
+      <li>Show nearby mosques, musallas, and Islamic centers on the map.</li>
+      <li>Calculate accurate prayer times for your current position.</li>
+      <li>Determine the Qibla direction and distance to the Kaaba.</li>
+    </ul>
+    <p>Location data is processed <strong>only on your device</strong>. It is never transmitted to our servers (we don't operate any) and never shared with third parties except the public APIs listed in section 3, which receive only the minimum coordinates needed to return a result.</p>
+
+    <h3>Data you create</h3>
+    <p>Favourite mosques, saved settings, prayer-time adjustments, admin credentials, and any crowdsourced edits you submit are stored locally on your device using SQLite (via the Drift library). You can export or delete this data at any time from within the App.</p>
+
+    <h3>Data we do NOT collect</h3>
+    <ul>
+      <li>Your name, email address, or phone number (we never ask).</li>
+      <li>Your contacts, photos, files, or messages.</li>
+      <li>Your advertising ID.</li>
+      <li>Crash reports or analytics (we use no such SDKs).</li>
+      <li>Any form of account or login data (except the locally stored admin password you set yourself, which never leaves your device).</li>
+    </ul>
+
+    <h2>2. Permissions We Request</h2>
+    <ul>
+      <li><code>ACCESS_FINE_LOCATION</code> and <code>ACCESS_COARSE_LOCATION</code> — to find nearby mosques and calculate prayer times.</li>
+      <li><code>POST_NOTIFICATIONS</code> — to send prayer-time reminders (opt-in).</li>
+      <li><code>SCHEDULE_EXACT_ALARM</code> — to deliver prayer notifications on time.</li>
+      <li><code>INTERNET</code> — only to fetch map tiles, mosque data, prayer times, Quranic content, and to open navigation links.</li>
+  </ul>
+    <p>You can revoke any of these permissions at any time from your device settings.</p>
+
+    <h2>3. Third-Party Services</h2>
+    <p>Masjidi uses the following public APIs. Each may receive your approximate coordinates, IP address, and standard request headers when the App makes a request on your behalf:</p>
+    <ul>
+      <li><strong>OpenStreetMap</strong> (tile.openstreetmap.org) — map tiles. <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">Privacy policy</a>.</li>
+      <li><strong>Overpass API</strong> (overpass-api.de) — fetches mosque locations within a radius.</li>
+      <li><strong>Nominatim</strong> (nominatim.openstreetmap.org) — reverse-geocodes coordinates into addresses.</li>
+      <li><strong>AlAdhan API</strong> (api.aladhan.com) — prayer times and Qibla calculations. <a href="https://aladhan.com/privacy-policy" target="_blank" rel="noopener">Privacy policy</a>.</li>
+      <li><strong>AlQuran Cloud API</strong> (api.alquran.cloud) — daily Quranic verses.</li>
+    </ul>
+    <p>We do not share any data with these services other than the minimum required for the request (typically latitude/longitude).</p>
+
+    <h2>4. Data Retention & Deletion</h2>
+    <p>All user-created data lives on your device. Uninstalling Masjidi removes all of it. To delete individual items, use the admin panel or the relevant screen within the App.</p>
+
+    <h2>5. Children's Privacy</h2>
+    <p>Masjidi is not directed to children under 13. Because we collect no personal data, no special handling is required, but we encourage parental supervision for users under 13.</p>
+
+    <h2>6. Security</h2>
+    <p>Admin credentials in the App are stored using <strong>flutter_secure_storage</strong>, backed by the platform's Keychain (iOS) or EncryptedSharedPreferences (Android). Prayer times, mosque data, and favourites are stored in a plain SQLite database on your device.</p>
+
+    <h2>7. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Material changes will be reflected in the App and on this page with an updated "Last updated" date.</p>
+
+    <h2>8. Contact Us</h2>
+    <p>Questions about this Privacy Policy? Reach out to:</p>
+    <p>📧 <a href="mailto:info@ashfaqalizardaristore.co">info@ashfaqalizardaristore.co</a><br>
+    📞 <a href="tel:+923308060604">+92 330 806 0604</a><br>
+    🌐 <a href="https://ashfaqalizardaristore.co/" target="_blank" rel="noopener">ashfaqalizardaristore.co</a></p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container"><div class="footer-bottom" style="justify-content:center;text-align:center">
+    <span>© <span id="year"></span> Ashfaq Ali Zardari Store · <a href="terms.html">Terms</a> · <a href="license.html">Licenses</a> · <a href="contact.html">Contact</a></span>
+  </div></div>
+</footer>
+<script src="js/main.js"></script><script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
